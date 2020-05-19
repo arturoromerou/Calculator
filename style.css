@@ -1,0 +1,113 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 255, 255);
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    background-color: palegoldenrod;
+    margin: 20px, auto;
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    top: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 8px 5px 12px 9px rgba(0, 0, 0, 0.2), 0 6px 20px 0 
+    rgba(0, 0, 0, 0.19);
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #cecece;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 45px;
+    color: white;
+}
+
+#keyboard{
+    height: 409px;
+
+}
+
+#backspace:active{
+    font-size: 30px;
+}
+
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-size: 30px;
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 40px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+    outline: none;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: orange;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: orange;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: orange;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: orange;
+}
+
+button:nth-child(18){
+    font-size: 20px;
+    background-color: orange;
+}
+
+button:nth-child(17){
+    width: 208px;
+    border-radius: 5px;
+}
